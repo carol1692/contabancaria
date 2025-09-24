@@ -17,25 +17,25 @@ public class Menu {
 		int opcao;
 //		Instanciar Objetos da Classe Conta
 		
-		Conta c1 = new Conta(1, 123, 1, "Persephone", 500500.00f);
-		Conta c2 = new Conta(0, 0, 0, "", 0.0f);
-		
-		c1.visualizar();
-				
-		c2.setNumero(2);
-		c2.setAgencia(345);
-		c2.setTipo(2);
-		c2.setTitular("Hades");
-		c2.setSaldo(500000.00f);
-		
-		
-		c2.visualizar();
-				
-		System.out.println("O Saldo da conta é: " + c1.sacar(1000.00f));
-		System.out.println("O Saldo da conta é: " + c1.sacar(600500.00f));
-		
-		c1.depositar(200000.00f);
-		
+//		Conta c1 = new Conta(1, 123, 1, "Persephone", 500500.00f);
+//		Conta c2 = new Conta(0, 0, 0, "", 0.0f);
+//		
+//		c1.visualizar();
+//				
+//		c2.setNumero(2);
+//		c2.setAgencia(345);
+//		c2.setTipo(2);
+//		c2.setTitular("Hades");
+//		c2.setSaldo(500000.00f);
+//		
+//		
+//		c2.visualizar();
+//				
+//		System.out.println("O Saldo da conta é: " + c1.sacar(1000.00f));
+//		System.out.println("O Saldo da conta é: " + c1.sacar(600500.00f));
+//		
+//		c1.depositar(200000.00f);
+	
 //		Instanciar Objetos da Classe ContaCorrente
 		ContaCorrente cc1 = new ContaCorrente(3, 456, 1, "Thuany Silva", 100000000.00f, 10000000f ); 
 		cc1.visualizar();
